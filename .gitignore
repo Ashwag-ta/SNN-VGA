@@ -1,0 +1,23 @@
+# macOS system files
+.DS_Store
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env/
+.venv/
+*.pkl
+*.log
+
+# Conda lock files (optional)
+*.lock
+
+# Jupyter Notebook checkpoints (optional)
+.ipynb_checkpoints/
+
+# VSCode project settings (optional)
+.vscode/
