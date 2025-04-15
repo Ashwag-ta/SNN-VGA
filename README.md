@@ -35,14 +35,14 @@ Ensure that the following files are in your working directory:
 ## Results
 
 - The tables below show the performance of SNN-VGA compared with a state-of-the-art model (Weighted Geometric Embedding) on the comorbidity prediction task using RR thresholds of 0 and 1:
-  ### Model Performance Comparison (RR = 0)
+**Model Performance Comparison (RR = 0)**
 | Model                         | AUROC       | Accuracy    | Precision   | Recall      | F1          | AP          |
 |------------------------------|-------------|-------------|-------------|-------------|-------------|-------------|
 | **SNN-VGA (Ours)**           | 0.96 ± 0.01 | 0.92 ± 0.01 | 0.91 ± 0.01 | 0.94 ± 0.01 | 0.92 ± 0.01 | 0.95 ± 0.00 |
 | **Weighted Geometric Embedding [16]** | 0.90        | 0.90        | 0.90        | 0.90        | 0.89        | -           |
 
 
-  ### Model Performance Comparison (RR = 1)
+**Model Performance Comparison (RR = 1)***
 | Model                         | AUROC       | Accuracy    | Precision   | Recall      | F1          | AP          |
 |------------------------------|-------------|-------------|-------------|-------------|-------------|-------------|
 | **SNN-VGA (Ours)**           | 0.94 ± 0.00 | 0.89 ± 0.01 | 0.87 ± 0.00 | 0.92 ± 0.01 | 0.89 ± 0.01 | 0.92 ± 0.00 |
@@ -53,10 +53,10 @@ Ensure that the following files are in your working directory:
 
 
 - The ROC (Receiver Operating Characteristic) curves are plotted for each fold of a 10-fold cross-validation, showing model performance for both RR = 0 and RR = 1.
-  ### ROC Curve (RR = 0)
+  **ROC Curve (RR = 0)**
      ![ROC Curve](figures/ROC_curve_RR0.png)
 
-  ### ROC Curve (RR = 1)
+  **ROC Curve (RR = 1)**
      ![ROC Curve](figures/ROC_curve_RR1.png)
 
 
