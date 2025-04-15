@@ -33,6 +33,7 @@ Determine the RR (Relative Risk) threshold, either 0 or 1, which controls the po
 
    - The ROC (Receiver Operating Characteristic) curves are plotted for each fold of a 10-fold cross-validation, showing model performance for both RR = 0 and RR = 1.
      ![ROC Curve](figures/ROC_curve_RR0.png)
+     ![ROC Curve](figures/ROC_curve_RR1.png)
 
 
 
