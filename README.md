@@ -30,6 +30,15 @@ Determine the RR (Relative Risk) threshold, either 0 or 1, which controls the po
 
 ## Results
   - The table below shows the performance of SNN-VGA compared with a state-of-the-art model (Weighted Geometric Embedding) on the comorbidity prediction task using RR thresholds of 0 and 1:
+  - \begin{table}[]
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+Model & 2 & 3 & 4 &  \\ \hline
+2     & 3 & 4 & 1 &  \\ \hline
+      &   &   &   &  \\ \hline
+      &   &   &   &  \\ \hline
+\end{tabular}
+\end{table}
 
    - The ROC (Receiver Operating Characteristic) curves are plotted for each fold of a 10-fold cross-validation, showing model performance for both RR = 0 and RR = 1.
      ### ROC Curve (RR = 0)
