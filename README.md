@@ -38,7 +38,7 @@ Determine the RR (Relative Risk) threshold, either 0 or 1, which controls the po
 | **Weighted Geometric Embedding [16]** | 0.90        | 0.90        | 0.90        | 0.90        | 0.89        | -           |
 
 
-### Model Performance Comparison (RR = 1)
+  ### Model Performance Comparison (RR = 1)
 | Model                         | AUROC       | Accuracy    | Precision   | Recall      | F1          | AP          |
 |------------------------------|-------------|-------------|-------------|-------------|-------------|-------------|
 | **SNN-VGA (Ours)**           | 0.94 ± 0.00 | 0.89 ± 0.01 | 0.87 ± 0.00 | 0.92 ± 0.01 | 0.89 ± 0.01 | 0.92 ± 0.00 |
@@ -49,10 +49,10 @@ Determine the RR (Relative Risk) threshold, either 0 or 1, which controls the po
 
 
 - The ROC (Receiver Operating Characteristic) curves are plotted for each fold of a 10-fold cross-validation, showing model performance for both RR = 0 and RR = 1.
-### ROC Curve (RR = 0)
+  ### ROC Curve (RR = 0)
      ![ROC Curve](figures/ROC_curve_RR0.png)
 
-### ROC Curve (RR = 1)
+  ### ROC Curve (RR = 1)
      ![ROC Curve](figures/ROC_curve_RR1.png)
 
 
