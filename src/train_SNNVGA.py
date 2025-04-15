@@ -9,8 +9,6 @@ import matplotlib.pyplot as plt
 import random as rd
 from tabulate import tabulate
 
-
-
 # Pytorch
 import torch
 
@@ -28,8 +26,6 @@ from SNNVGA_model import LinkPred
 
 
 
-
- 
 # Training function
 def train(model, data, optimizer, args):
     KL_divergence = 0
@@ -44,6 +40,8 @@ def train(model, data, optimizer, args):
     optimizer.step()
     
     return total_loss
+
+
 
 # Testing function
 @torch.no_grad()
@@ -64,6 +62,8 @@ def test(model, data, args ):
     y_pred= x_cons.cpu().numpy()
     
     return auc , accuracy , precision , recall , f1 , average_precision , y_true , y_pred
+
+
 
 def main():
     # Hyperparameters and settings
@@ -231,6 +231,7 @@ def main():
                  max_val_auc = val_auc
                  best_model = copy.deepcopy(model)
 
+     
         # Test the model 
         Best_val_auc, Best_val_accuracy, Best_val_precision, Best_val_recall, Best_val_f1 , Best_val_average_precision, y_val , pred_val  = test(best_model, curr_val_data, args)
         Best_test_auc, Best_test_accuracy, Best_test_precision, Best_test_recall, Best_test_f1, Best_test_average_precision, y_test, pred_test  = test(best_model, curr_test_data , args)
@@ -288,8 +289,6 @@ def main():
     ax_test.legend(loc="lower right")
     plt.show()
 
-
-
     # Calculate the average metrics for the model results after finishing all outer folds
 
     # Average metrics for validation set
@@ -299,7 +298,6 @@ def main():
     Bestmodel_avg_val_recall = np.mean(bestmodel_val_recall_list)
     Bestmodel_avg_val_f1 = np.mean(bestmodel_val_f1_list)
     Bestmodel_avg_val_ap = np.mean(bestmodel_val_ap_list)
-
 
     # Average metrics for test set
     Bestmodel_avg_test_auc = np.mean(bestmodel_test_auc_list)
@@ -332,7 +330,6 @@ def main():
     }
 
     # Display the best metrics in a table 
-
     for key, value in bestmodel_final_metrics.items():
         bestmode_mean_table.append([key, value])
     print("\nBest Metrics mean for best models over all outer folds:")
