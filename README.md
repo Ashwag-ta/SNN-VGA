@@ -11,6 +11,6 @@ We introduce SNN-VGA, a novel hybrid deep learning framework that integrates Sub
 Conda must be installed on your system.
 ## Setup the Environment
 Install the environment using the provided .yml file:
-<pre lang="bash"> ```bash conda env create --file SNNVGA_environment.yml ``` </pre>
+<pre lang="bash"> conda env create --file SNNVGA_environment.yml </pre>
 
 
