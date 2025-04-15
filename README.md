@@ -24,9 +24,10 @@ Ensure that the following files are in your working directory:
 
 ### Train the Model
 Determine the RR (Relative Risk) threshold, either 0 or 1, which controls the positive sample criteria used in training.
-#### Run the model
+#### Run the model: 
+To start the training process, run the following command with the chosen RR value:
 <pre lang="bash"> python train_SNNVGA.py <RR> </pre>
-#### Example (for RR = 0)
+#### Example (for RR = 0):
 <pre lang="bash"> python train_SNNVGA.py 0 <RR> </pre>
 
 ## Results
