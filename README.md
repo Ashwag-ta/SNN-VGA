@@ -36,17 +36,19 @@ Ensure that the following files are in your working directory:
 
 - The tables below show the performance of SNN-VGA compared with a state-of-the-art model (Weighted Geometric Embedding) on the comorbidity prediction task using RR thresholds of 0 and 1:
 **Model Performance Comparison (RR = 0)**
+  
 | Model                         | AUROC       | Accuracy    | Precision   | Recall      | F1          | AP          |
 |------------------------------|-------------|-------------|-------------|-------------|-------------|-------------|
 | **SNN-VGA (Ours)**           | 0.96 ± 0.01 | 0.92 ± 0.01 | 0.91 ± 0.01 | 0.94 ± 0.01 | 0.92 ± 0.01 | 0.95 ± 0.00 |
-| **Weighted Geometric Embedding [16]** | 0.90        | 0.90        | 0.90        | 0.90        | 0.89        | -           |
+| **Weighted Geometric Embedding** | 0.90        | 0.90        | 0.90        | 0.90        | 0.89        | -           |
 
 
 **Model Performance Comparison (RR = 1)***
+
 | Model                         | AUROC       | Accuracy    | Precision   | Recall      | F1          | AP          |
 |------------------------------|-------------|-------------|-------------|-------------|-------------|-------------|
 | **SNN-VGA (Ours)**           | 0.94 ± 0.00 | 0.89 ± 0.01 | 0.87 ± 0.00 | 0.92 ± 0.01 | 0.89 ± 0.01 | 0.92 ± 0.00 |
-| **Weighted Geometric Embedding [16]** | 0.76        | 0.70        | 0.70        | 0.70        | 0.69        | -           |
+| **Weighted Geometric Embedding** | 0.76        | 0.70        | 0.70        | 0.70        | 0.69        | -           |
 
 
 
