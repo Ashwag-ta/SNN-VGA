@@ -29,7 +29,7 @@ Ensure that the following files are in your working directory:
 **Run the model:** To start the training process, run the following command with the chosen RR value:
 
 <pre lang="bash"> python train_SNNVGA.py RR_VALUE </pre>
-***Example (for RR = 0):***
+**Example (for RR = 0):**
 <pre lang="bash"> python train_SNNVGA.py 0 </pre>
 
 ## Results
