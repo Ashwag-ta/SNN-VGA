@@ -23,12 +23,13 @@ Ensure that the following files are in your working directory:
   - DDI_RR1_positive_labels.csv: Corresponding labels with RR = 1
 
 ### Train the Model
-Determine the RR (Relative Risk) threshold, either 0 or 1, which controls the positive sample criteria used in training.
-#### Run the model: 
-To start the training process, run the following command with the chosen RR value:
 
-<pre lang="bash"> python train_SNNVGA.py <RR> &lt;RR&gt; </pre>
-#### Example (for RR = 0):
+**Determine the RR (Relative Risk) threshold:** Choose the RR threshold, either 0 or 1, which determines the positive sample criteria used during training.
+
+**Run the model:** To start the training process, run the following command with the chosen RR value:
+
+<pre lang="bash"> python train_SNNVGA.py RR_VALUE </pre>
+***Example (for RR = 0):***
 <pre lang="bash"> python train_SNNVGA.py 0 </pre>
 
 ## Results
