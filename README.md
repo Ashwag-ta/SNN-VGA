@@ -34,8 +34,12 @@ Determine the RR (Relative Risk) threshold, either 0 or 1, which controls the po
   ### Model Performance Comparison (RR = 0)
 | Model                         | AUROC       | Accuracy    | Precision   | Recall      | F1          | AP          |
 |------------------------------|-------------|-------------|-------------|-------------|-------------|-------------|
-| **SNN-VGA (Ours)**           | 0.96 ± 0.01 | 0.92 ± 0.01 | 0.91 ± 0.01 | 0.94 ± 0.01 | 0.92 ± 0.01 | 0.95 ± 0.00 |
-| **Weighted Geometric Embedding** | 0.90 ± 0.00 | 0.90 ± 0.00 | 0.90 ± 0.00 | 0.90 ± 0.00 | 0.89 ± 0.00 | -           |
+| **SNN-VGA (Ours)**           | 0.96        | 0.92        | 0.91        | 0.94        | 0.92        | 0.95        |
+|                              | ± 0.01      | ± 0.01      | ± 0.01      | ± 0.01      | ± 0.01      | ± 0.00      |
+| **Weighted Geometric Embedding** | 0.90        | 0.90        | 0.90        | 0.90        | 0.89        | -           |
+|                              | ± 0.00      | ± 0.00      | ± 0.00      | ± 0.00      | ± 0.00      | -           |
+
+
 
 
 ### Model Performance Comparison (RR = 1)
