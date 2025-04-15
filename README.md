@@ -8,7 +8,7 @@ We introduce SNN-VGA, a novel hybrid deep learning framework that integrates Sub
 ### The Hybrid Deep Learning Architecture of SNN-VGA
 ![SNNVGA framework](figures/SNNVGA_framework.png)
 
-## How to Use SNN_VGA
+## How to Use SNN-VGA
 ### Prerequisites
 Conda must be installed on your system.
 ### Setup the Environment
