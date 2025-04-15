@@ -60,11 +60,11 @@ Ensure that the following files are in your working directory:
   
 **ROC Curve (RR = 0)**
   
-     ![ROC Curve](figures/ROC_curve_RR0.png)
+![ROC Curve](figures/ROC_curve_RR0.png)
 
 **ROC Curve (RR = 1)**
   
-     ![ROC Curve](figures/ROC_curve_RR1.png)
+![ROC Curve](figures/ROC_curve_RR1.png)
 
 
 
