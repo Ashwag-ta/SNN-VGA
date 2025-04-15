@@ -58,11 +58,11 @@ Ensure that the following files are in your working directory:
 
 - The ROC (Receiver Operating Characteristic) curves are plotted for each fold of a 10-fold cross-validation, showing model performance for both RR = 0 and RR = 1.
   
-  **ROC Curve (RR = 0)**
+**ROC Curve (RR = 0)**
   
      ![ROC Curve](figures/ROC_curve_RR0.png)
 
-  **ROC Curve (RR = 1)**
+**ROC Curve (RR = 1)**
   
      ![ROC Curve](figures/ROC_curve_RR1.png)
 
