@@ -44,7 +44,7 @@ Ensure that the following files are in your working directory:
 | **Weighted Geometric Embedding** | 0.90        | 0.90        | 0.90        | 0.90        | 0.89        | -           |
 
 
-   **Model Performance Comparison (RR = 1)***
+  **Model Performance Comparison (RR = 1)**
 
 | Model                         | AUROC       | Accuracy    | Precision   | Recall      | F1          | AP          |
 |------------------------------|-------------|-------------|-------------|-------------|-------------|-------------|
