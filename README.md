@@ -36,7 +36,7 @@ Use the determined threshold to train the model.
 ## Results
 
 - The tables below show the performance of SNN-VGA compared with a state-of-the-art model (Weighted Geometric Embedding) on the comorbidity prediction task using RR thresholds of 0 and 1:
-  ### Model Performance Comparison (RR = 0)
+### Model Performance Comparison (RR = 0)
 | Model                         | AUROC       | Accuracy    | Precision   | Recall      | F1          | AP          |
 |------------------------------|-------------|-------------|-------------|-------------|-------------|-------------|
 | **SNN-VGA**           | 0.96 ±0.01 | 0.92 ±0.01 | 0.91 ±0.01 | 0.94 ±0.01 | 0.92 ±0.01 | 0.95 ±0.00 |
