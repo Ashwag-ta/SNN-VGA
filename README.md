@@ -32,7 +32,7 @@ Determine the Relative Risk (RR) threshold, either 0 or 1, which controls the po
 
 ## Results
 
-- The tables below show the performance of SNN-VGA, compared with the state-of-the-art model (Weighted Geometric Embedding) for the comorbidity prediction task using RR thresholds of 0 and 1:
+- The tables below show the performance of SNN-VGA, compared with the state-of-the-art model (Weighted Geometric Embedding) for the comorbidity prediction task using RR thresholds of 0 and 1.
 #### Model Performance Comparison (RR = 0)
 | Model                         | AUROC       | Accuracy    | Precision   | Recall      | F1          | AP          |
 |------------------------------|-------------|-------------|-------------|-------------|-------------|-------------|
