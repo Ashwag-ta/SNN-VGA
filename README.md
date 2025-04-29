@@ -26,9 +26,9 @@ Ensure that the following files are in your working directory:
 
 **Train the Model:** Use the determined threshold to train the model.
 #### Run the model:
-<pre lang="bash"> python train_SNNVGA.py <RR> </pre>
+<pre lang="bash"> python train_SNNVGA.py RR_value </pre>
 #### Example (for RR = 0):
-<pre lang="bash"> python train_SNNVGA.py 0 <RR> </pre>
+<pre lang="bash"> python train_SNNVGA.py 0 </pre>
 
 ## Results
 
