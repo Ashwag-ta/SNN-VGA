@@ -23,7 +23,7 @@ Ensure that the following files are in your working directory:
 
 ### Train the Model
 #### Determine the Relative Risk (RR) Threshold:
-Determine the RR threshold, either 0 or 1, which controls the positive sample criteria used in training.
+Set the RR threshold, either 0 or 1, which controls the positive sample criteria used in training.
 
 #### Train the Model:
 Use the determined threshold to train the model.
