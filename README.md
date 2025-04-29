@@ -28,9 +28,9 @@ Set the RR threshold, either 0 or 1, which controls the positive sample criteria
 
 - #### Train the Model:
 Use the determined threshold to train the model.
-  - ##### Run the model:
+  ##### Run the model:
 <pre lang="bash"> python train_SNNVGA.py RR_value </pre>
-  - ##### Example (for RR = 0):
+  ##### Example (for RR = 0):
 <pre lang="bash"> python train_SNNVGA.py 0 </pre>
 
 ## Results
