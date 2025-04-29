@@ -4,7 +4,7 @@ Repository for ICCABS 2025 paper : Link Prediction in Disease-Disease Interactio
 Authors: Ashwag Altayyar and Li Liao
 
 ## Overview
-We introduce SNN-VGA, a novel hybrid deep learning framework that integrates Subgraph Neural Networks (SUBGNN) and Variational Graph Auto-Encoders (VGAE) for comorbidity prediction in the disease-disease interactions (DDIs) network. In this framework, disease modules are modeled as subgraphs within the Protein-Protein Interactions (PPIs) network. Subsequently, SUBGNN is adopted to generate embeddings for these subgraphs by capturing graph properties and considering multiple disconnected components. These embeddings are then passed to VGAE, which predicts links (i.e., comorbidities) between disease nodes based on their subgraph-level representations.
+We introduce SNN-VGA, a novel hybrid deep learning framework that integrates Subgraph Neural Networks (SubGNN) and Variational Graph Auto-Encoders (VGAE) for comorbidity prediction in the disease-disease interactions (DDIs) network. In this framework, disease modules are modeled as subgraphs within the Protein-Protein Interactions (PPIs) network. Subsequently, SubGNN is adopted to generate embeddings for these subgraphs by capturing graph properties and considering multiple disconnected components. These embeddings are then passed to VGAE, which predicts links (i.e., comorbidities) between disease nodes based on their subgraph-level representations.
 #### The Hybrid Deep Learning Architecture of SNN-VGA 
 ![SNNVGA framework](figures/SNNVGA_framework.png)
 
@@ -32,7 +32,7 @@ Determine the Relative Risk (RR) threshold, either 0 or 1, which controls the po
 
 ## Results
 
-- The tables below show the performance of SNN-VGA compared with the state-of-the-art model (Weighted Geometric Embedding) on the comorbidity prediction task using RR thresholds of 0 and 1:
+- The tables below show the performance of SNN-VGA, compared with the state-of-the-art model (Weighted Geometric Embedding) for the comorbidity prediction task using RR thresholds of 0 and 1:
 #### Model Performance Comparison (RR = 0)
 | Model                         | AUROC       | Accuracy    | Precision   | Recall      | F1          | AP          |
 |------------------------------|-------------|-------------|-------------|-------------|-------------|-------------|
