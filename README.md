@@ -5,7 +5,7 @@ Authors: Ashwag Altayyar and Li Liao
 
 ## Overview
 We introduce SNN-VGA, a novel hybrid deep learning framework that integrates Subgraph Neural Networks (SUBGNN) and Variational Graph Auto-Encoders (VGAE) for comorbidity prediction in the disease-disease interactions (DDIs) network. In this framework, disease modules are modeled as subgraphs within the Protein-Protein Interactions (PPIs) network. Subsequently, SUBGNN is adopted to generate embeddings for these subgraphs by capturing graph properties and considering multiple disconnected components. These embeddings are then passed to VGAE, which predicts links (i.e., comorbidities) between disease nodes based on their subgraph-level representations.
-### The Hybrid Deep Learning Architecture of SNN-VGA 
+#### The Hybrid Deep Learning Architecture of SNN-VGA 
 ![SNNVGA framework](figures/SNNVGA_framework.png)
 
 ## How to Use SNN-VGA
@@ -36,14 +36,14 @@ Use the determined threshold to train the model.
 ## Results
 
 - The tables below show the performance of SNN-VGA compared with a state-of-the-art model (Weighted Geometric Embedding) on the comorbidity prediction task using RR thresholds of 0 and 1:
-### Model Performance Comparison (RR = 0)
+#### Model Performance Comparison (RR = 0)
 | Model                         | AUROC       | Accuracy    | Precision   | Recall      | F1          | AP          |
 |------------------------------|-------------|-------------|-------------|-------------|-------------|-------------|
 | **SNN-VGA**           | 0.96 ±0.01 | 0.92 ±0.01 | 0.91 ±0.01 | 0.94 ±0.01 | 0.92 ±0.01 | 0.95 ±0.00 |
 | **Weighted Geometric Embedding** | 0.90        | 0.90        | 0.90        | 0.90        | 0.89        | -           |
 
 
-  ### Model Performance Comparison (RR = 1)
+  #### Model Performance Comparison (RR = 1)
 | Model                         | AUROC       | Accuracy    | Precision   | Recall      | F1          | AP          |
 |------------------------------|-------------|-------------|-------------|-------------|-------------|-------------|
 | **SNN-VGA**           | 0.94 ±0.00 | 0.89 ±0.01 | 0.87 ±0.00 | 0.92 ±0.01 | 0.89 ±0.01 | 0.92 ±0.00 |
