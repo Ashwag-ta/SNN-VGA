@@ -5,6 +5,7 @@ Authors: Ashwag Altayyar and Li Liao
 
 ## Overview
 We introduce SNN-VGA, a novel hybrid deep learning framework that integrates Subgraph Neural Networks (SUBGNN) and Variational Graph Auto-Encoders (VGAE) for comorbidity prediction in the disease-disease interactions (DDIs) network. In this framework, disease modules are modeled as subgraphs within the Protein-Protein Interactions (PPIs) network. Subsequently, SUBGNN is adopted to generate embeddings for these subgraphs by capturing graph properties and considering multiple disconnected components. These embeddings are then passed to VGAE, which predicts links (i.e., comorbidities) between disease nodes based on their subgraph-level representations.
+### The Hybrid Deep Learning Architecture of SNN-VGA 
 ![SNNVGA framework](figures/SNNVGA_framework.png)
 
 ## How to Use SNN-VGA
